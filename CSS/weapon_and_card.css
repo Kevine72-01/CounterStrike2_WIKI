@@ -1,0 +1,275 @@
+.weapon_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background-color: #383838;
+  border-radius: 10px;
+  border: 1px solid #111;
+  width: 1700px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+.weapon_container:hover {
+  background-color: #2a2a2a;
+  transform: translateY(-10px);
+}
+
+.weapon_container div p {
+  flex: 1;
+  max-width: 1214px;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffdb70;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.weapon-info,
+.weapon-stat_info {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.weapon-info td {
+  padding: 12px;
+  color: #ffdb70;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  border: 2px solid #e0c67a;
+}
+
+.weapon-info .price {
+  color: #9eff9e;
+  margin: 0;
+}
+
+.weapon-stat_info td {
+  padding: 12px;
+  color: #eeeeee;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  border: 2px solid #e0c67a;
+}
+
+.card {
+  width: 360px;
+  background-color: #292940;
+  border: 2px solid #e0c67a;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #ffdb70;
+  margin-bottom: 20px;
+}
+
+.card .weapon-img {
+  width: 100%;
+  height: auto;
+  transform: scale(0.75);
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  background-color: #1d1d30;
+  transform: translateY(-5px);
+}
+
+.card .weapon-img:hover {
+  transform: scale(1.05);
+}
+
+.card .weapon-stat_info .patch {
+  height: 2.5em;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.table-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.table-container .info {
+  height: fit-content;
+  max-width: 890px;
+}
+
+.weapon-info .right-content.info p,
+.weapon_container div p {
+  text-align: justify;
+}
+
+.weapon-table {
+  width: 300px;
+  border: 2px solid #e0c67a;
+  border-collapse: collapse;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  color: #f1f1f1;
+  background-color: #303040;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.weapon-table td {
+  padding: 4px;
+  border: 1px solid #e0c67a;
+}
+
+.audio_gunshot,
+.audio_reload {
+  background-color: #303040;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.audio_gunshot audio,
+.audio_reload audio {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 3px;
+  transition: transform 0.3s ease;
+  transform: translateY(0);
+}
+
+.audio_gunshot h3,
+.audio_reload h3 {
+  color: #ffdb70;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.audio_gunshot audio:hover,
+.audio_reload audio:hover {
+  transform: translateY(-2px);
+}
+
+.audio_gunshot:hover,
+.audio_reload:hover {
+  background-color: #222233;
+  transform: translateY(-8px);
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 890px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1440px) {
+  .weapon_container {
+    width: 95%;
+  }
+
+  .card {
+    width: 340px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .weapon_container {
+    padding: 15px;
+  }
+
+  .weapon_container div p {
+    max-width: 100%;
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .weapon_container {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .weapon_container div p {
+    text-align: justify;
+    max-width: none;
+  }
+
+  .table-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weapon-table {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .weapon_container {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .weapon_container div p {
+    font-size: 18px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .table-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .weapon-table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .audio_gunshot audio,
+  .audio_reload audio {
+    max-width: 100%;
+  }
+
+  .right-content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}

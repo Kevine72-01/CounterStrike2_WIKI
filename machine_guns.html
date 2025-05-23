@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Guns</title>
+    <link rel="stylesheet" href="/CSS/navigation.css">
+    <link rel="stylesheet" href="/CSS/weapon_and_card.css">
+    <script src="nav-active.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul class="upper">
+            <li class="main"><a href="home.html">Home</a></li>
+            <li class="main"><a href="armory.html" class="active">Armory</a></li>
+            <li class="main"><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="background_img">
+        <img src="/IMAGE/Counter-Strike-2_bg.webp" alt="Counter Strike 2 Background">
+    </div>
+
+    <div class="container">
+        <div>
+            <nav>
+                <ul class="lower">
+                    <li class="weapon"><a href="armory.html">Pistols</a></li>
+                    <li class="weapon"><a href="sub-machinegun.html">Sub-Machine Guns</a></li>
+                    <li class="weapon"><a href="shotgun.html">Shotguns</a></li>
+                    <li class="weapon"><a href="machine_guns.html" class="active">Machine Guns</a></li>
+                    <li class="weapon"><a href="rifles.html">Rifles</a></li>
+                    <li class="weapon"><a href="equipments.html">Equipments</a></li>
+                </ul>
+            </nav> 
+        </div> 
+        
+                                        <!-- M249 -->
+
+        <div class="weapon_container" id="M249">
+
+            <div class="card">
+                <abbr title="M249"> <img src="/IMAGE/CS2_M249_Inventory.webp" alt="M249" class="weapon-img"> </abbr>  
+
+                <table class="weapon-info">
+                    <tbody>
+                        <tr>
+                            <td><h2 style="text-decoration: underline 3px;">M249</h2></td>
+                        </tr>
+                        <tr>
+                            <td><h2 class="price">$5200</h2></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="weapon-stat_info">
+                    <tr>
+                        <td>Rate of fire: 750 rounds per minute</td>
+                    </tr>
+                    <tr>
+                        <td>Reload time: 5.7 seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Magazine capacity: 100</td>
+                    </tr>
+                    <tr>
+                        <td>Accurate range (meters): 16m</td>
+                    </tr>
+                    <tr>
+                        <td>Reserve ammo limit: 200</td>
+                    </tr>
+                    <tr>
+                        <td>Purchasable by: 
+                            <abbr title="Counter-Terrorists"><img src="/IMAGE/Ct-patch-small.webp" alt="Counter-Terrorists" class="patch"></abbr>
+                            <abbr title="Terrorists"><img src="/IMAGE/Icon-t-patch-small.webp" alt="Terrorists" class="patch"></abbr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Difficulty: <span style="color: #ff8800;">&#9733;&#9733;&#9733;</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <p>
+                    The M249 is a machine gun featured in every game in the Counter-Strike series.
+                    In-game, it is one of the two machine guns in the multiplayer Counter-Strike games, and the only one available in games prior to Global Offensive. 
+                    It is available to both teams. 
+                    Terrorists cannot purchase this machine gun in Assassination maps.
+                    The M249 is currently the most expensive weapon in all games in the series, at $5750 in earlier games and reduced to $5200 in Global Offensive. 
+                    It also has a high ammunition cost in Counter-Strike and Condition-Zero games where ammunition needs to be bought. 
+                    As the M249's 5.56mm ammo does not share with assault rifles that also uses 5.56mm ammo means the only way to refill the ammo without cost is pick up another M249 from dead player, which is a very rare possibility. 
+                    These properties make it a rare sight in competitive games with high economy management, but is more common in public matches due to its large magazine and good damage output making it a fun weapon to use.
+                </p>
+
+
+                <div class="table-container">
+
+                    <table class="weapon-table">
+                        <tr>
+                            <td rowspan="2" style="color: goldenrod;"><h5>Hitbox</h5></td>
+                            <td colspan="2"><h5>Primary Attack</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Unarmored</h5></td>
+                            <td><h5>Armored</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Head</h5></td>
+                            <td><h5 style="color: red;">128</h5></td>
+                            <td><h5 style="color: red;">102</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Chest & Arm</h5></td>
+                            <td><h5>32</h5></td>
+                            <td><h5>25</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Stomach and pelvis</h5></td>
+                            <td><h5>40</h5></td>
+                            <td><h5>32</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Leg</h5></td>
+                            <td><h5>24</h5></td>
+                            <td><h5>24</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3"> <h5><span style="color: red;">Red</span> Signifies a fatal hit.</h5></td>
+                        </tr>
+                    </table>
+
+                    <div class="right-content">
+                        <div class="info">
+                            <p> 
+                                It has a large magazine capacity and a large reserve ammunition capacity, but has a very long reload and is quite heavy due to being a light machine gun. 
+                                These properties makes it stronger for fighting against groups of enemies.
+                                The M249 deals high damage, able to instantly kill targets with headshots in Source and Global Offensive at close range regardless if they're using helmets. 
+                                It also has a high penetration power, allowing for suppressive fire through surfaces.
+                            </p>
+                        </div>
+
+                        <div class="audio_gunshot">
+                            <audio src="/MUSIC/P2000_gunshot.mkv" controls ></audio>
+                            <h3>Gunshot sound</h3>
+                        </div>
+
+                        <div class="audio_reload">
+                            <audio src="/MUSIC/P2000_reload.mkv" controls ></audio>
+                            <h3>Reload sound</h3>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+                                        <!-- End of M249 -->
+
+                                        <!-- Negev -->
+
+        <div class="weapon_container" id="Negev">
+            <div class="card">
+
+                <abbr title="Negev"><img src="/IMAGE/CS2_Negev_Inventory.webp" alt="Negev" class="weapon-img"></abbr>
+
+                <table class="weapon-info">
+                    <tbody>
+                        <tr>
+                            <td><h2 style="text-decoration: underline 3px;">Negev</h2></td>
+                        </tr>
+                        <tr>
+                            <td><h2 class="price">$1700</h2></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="weapon-stat_info" >
+                    <tr>
+                        <td>Rate of fire: 800 rounds per minute</td>
+                    </tr>
+                    <tr>
+                        <td>Reload time: 5.7 seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Magazine capacity: 150</td>
+                    </tr>
+                    <tr>
+                        <td>Accurate range (meters): 13m</td>
+                    </tr>
+                    <tr>
+                        <td>Reserve ammo limit: 300</td>
+                    </tr>
+                    <tr>
+                        <td>Purchasable by: 
+                            <abbr title="Counter-Terrorists"><img src="/IMAGE/Ct-patch-small.webp" alt="Counter-Terrorists" class="patch"></abbr>
+                            <abbr title="Terrorists"><img src="/IMAGE/Icon-t-patch-small.webp" alt="Terrorists" class="patch"></abbr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Difficulty: <span style="color: #ff3333;">&#9733;&#9733;&#9733;&#9733;</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <p>
+                    The Negev is a machine gun featured in Counter-Strike: Global Offensive & Counter-Strike 2.
+                    The Negev is available for both Counter-Terrorists and Terrorists to purchase. 
+                    Temporarily made unavailable in Competitive Matchmaking after the March 24, 2017 update, it was added back following the April 12, 2017 update.
+                    The Negev carries a 150-round magazine, 50 more than the M249, has a higher fire rate than the M249, and is significantly cheaper at $1700 (originally, it had the price tag of $5700), compared to the M249's $5200 price tag. 
+                    Like the M249, the weapon is heavy, has a long reload time, and has good penetration power.
+                    For the first 10 shots when firing continuously, the Negev is extremely inaccurate, easily the most inaccurate weapon in the game when bursted.
+                    However, the recoil pattern is unique in that after sustained fire, it concentrates on a point above the crosshair, with very little movement afterwards, allowing for very accurate continuous shots without much need for compensation.
+
+                </p>
+
+
+                <div class="table-container">
+
+                    <table class="weapon-table">
+                        <tr>
+                            <td rowspan="2" style="color: goldenrod;"><h5>Hitbox</h5></td>
+                            <td colspan="2"><h5>Primary Attack</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Unarmored</h5></td>
+                            <td><h5>Armored</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Head</h5></td>
+                            <td><h5 style="color: red;">140</h5></td>
+                            <td><h5>99</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Chest & Arm</h5></td>
+                            <td><h5>35</h5></td>
+                            <td><h5>24</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Stomach and pelvis</h5></td>
+                            <td><h5>43</h5></td>
+                            <td><h5>31</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td><h5>Leg</h5></td>
+                            <td><h5>26</h5></td>
+                            <td><h5>26</h5></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3"> <h5><span style="color: red;">Red</span> Signifies a fatal hit.</h5></td>
+                        </tr>
+                    </table>
+                        
+                    <div class="right-content">
+                        <div class="info">
+                            <p> 
+                                The weapon's movement spread is quite strong however, and the player is slowed down when firing, discouraging firing on the move.
+                                The intended strategy is using the weapon in a suppressive role, firing the weapon in long periods to suppress enemies. 
+                                In practice, many preferred to pre-fire the weapon to catch enemies by surprise and continue firing until they kill their target, though this is ineffective due to the movement penalty and high movement spread.
+                            </p>
+                        </div>
+
+                        <div class="audio_gunshot">
+                            <audio src="/MUSIC/Desert Eagle_gunshot.mkv" controls ></audio>
+                            <h3>Gunshot sound</h3>
+                        </div>
+
+                        <div class="audio_reload">
+                            <audio src="/MUSIC/Desert Eagle_reload.mkv" controls ></audio>
+                            <h3>Reload sound</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                                                <!-- End of Desert Eagle -->
+
+    </div>
+</body>
+</html>
