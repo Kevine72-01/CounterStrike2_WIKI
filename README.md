@@ -1,0 +1,2 @@
+# CounterStrike2_WIKI
+
