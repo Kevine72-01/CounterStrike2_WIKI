@@ -1,8 +1,8 @@
-#division {
+.division {
   text-align: center;
 }
 
-#division .type {
+.division .type {
   display: inline-block;        
   margin: 30px auto; 
   padding: 15px 40px;
