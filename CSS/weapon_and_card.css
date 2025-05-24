@@ -1,8 +1,8 @@
-.container .division {
+.container .division  {
   text-align: center;
 }
 
-.container .division .type {
+.container .division .Eq {
   display: inline-block;        
   margin: 30px auto; 
   padding: 15px 40px;
@@ -10,7 +10,7 @@
   background-color: #383838;        
   color: #ffdb70;
 
-  font-size: 70px;
+  font-size: 70px;  
   font-family: 'Trebuchet MS', sans-serif;
 
   border-radius: 10px;
