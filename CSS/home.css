@@ -105,3 +105,70 @@ html, body {
 .main a.active::after {
   transform: scaleX(1);
 }
+
+
+.welcome {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 580px;
+  margin-top: 480px;
+  max-width: 45 auto;
+
+  border: 2px solid #ffb703;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.65);
+  
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  color: #f7ede2;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 76px;
+  margin-bottom: 20px;
+  color: #ffdb70;
+  text-shadow: 0 0 6px #ffb703;
+}
+
+.welcome h3 {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  color: #e0c67a;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome h4 a {
+  text-decoration: none;
+  color: #f7ede2; /* match about text color */
+  font-size: 35px;
+  font-family: 'Arial', sans-serif;
+  
+  border: 1px solid #ffb703;
+  border-radius: 15px;
+  background-color: #ffb703;
+  
+  margin-top: 10px;
+  padding: 12px;
+  
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.welcome h4 a:hover {
+  background-color: transparent;
+  color: #ffb703;
+  box-shadow: 0 0 12px #ffb703;
+  border-color: #ffb703;
+  
+  transform: translateY(-10px);
+}

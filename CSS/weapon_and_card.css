@@ -1,4 +1,4 @@
-.container .division  {
+.container .division {
   text-align: center;
 }
 
@@ -13,10 +13,10 @@
   font-size: 70px;  
   font-family: 'Trebuchet MS', sans-serif;
 
-  border-radius: 10px;
-  border: 1px solid #111;
+  border-radius: 15px;
+  border: 2px solid #ffb703;
 
-  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
 }
 
@@ -26,12 +26,12 @@
   gap: 20px;
   padding: 20px;
   background-color: #383838;
-  border-radius: 10px;
-  border: 1px solid #111;
+  border-radius: 15px;
+  border: 2px solid #ffb703;
   width: 1700px;
   margin: 40px auto;
   flex-wrap: wrap;
-  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
   transition: background-color 0.3s ease, transform 0.3s ease;
   box-sizing: border-box;
 }
@@ -66,7 +66,8 @@
   color: #ffdb70;
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  border: 2px solid #e0c67a;
+  border: 2px solid #ffd966;
+  background-color: #383838;
 }
 
 .weapon-info .price {
@@ -80,17 +81,18 @@
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: bold;
   text-align: left;
-  border: 2px solid #e0c67a;
+  border: 2px solid #ffd966;
+  background-color: #2a2a2a;
 }
 
 .card {
   width: 360px;
   background-color: #292940;
-  border: 2px solid #e0c67a;
-  border-radius: 10px;
+  border: 2px solid #ffd966;
+  border-radius: 15px;
   overflow: hidden;
   text-align: center;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
   transition: transform 0.3s ease, background-color 0.3s ease;
   font-family: 'Trebuchet MS', sans-serif;
   color: #ffdb70;
@@ -145,61 +147,61 @@
 
 .weapon-table {
   width: 300px;
-  border: 2px solid #e0c67a;
+  border: 2px solid #ffd966;
   border-collapse: collapse;
   font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   font-weight: bolder;
   color: #f1f1f1;
   background-color: #303040;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
 }
 
 .weapon-table-grenade {
   width: 600px;
-  border: 2px solid #e0c67a;
+  border: 2px solid #ffd966;
   border-collapse: collapse;
   font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   font-weight: bolder;
   color: #f1f1f1;
   background-color: #303040;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
 }
 
 .weapon-table-pen {
   width: 210px;
-  border: 2px solid #e0c67a;
+  border: 2px solid #ffd966;
   border-collapse: collapse;
   font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
   font-weight: bolder;
   color: #f1f1f1;
   background-color: #303040;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
 }
 
 .weapon-table td {
   padding: 4px;
-  border: 1px solid #e0c67a;
+  border: 1px solid #ffd966;
 }
 
 .weapon-table-grenade td {
   padding: 4px;
-  border: 1px solid #e0c67a;
+  border: 1px solid #ffd966;
 }
 
 .weapon-table-pen td {
   padding: 1px;
-  border: 1px solid #e0c67a;
+  border: 1px solid #ffd966;
 }
 
 .audio_gunshot,
 .audio_reload {
   background-color: #303040;
   padding: 5px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,6 +256,7 @@
   gap: 15px;
   max-width: 1214px;
 }
+
 /* Responsive Styles */
 @media (max-width: 1440px) {
   .weapon_container {
