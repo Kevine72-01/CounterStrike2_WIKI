@@ -54,3 +54,37 @@
   color: #ffb703;
   font-weight: 600;
 }
+
+.tips-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.tip {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 183, 3, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tip:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 30px rgba(255, 183, 3, 0.9);
+}
+
+.tip h3 {
+  margin-top: 0;
+  color: #ffb703;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tip p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e0c67a;
+  font-family: Arial, sans-serif;
+}
