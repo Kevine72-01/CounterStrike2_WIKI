@@ -108,22 +108,19 @@ html, body {
 
 
 .welcome {
-  display: inline-block;
+  display: inline-block; 
   position: relative;
   z-index: 2;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 580px;
-  margin-top: 480px;
-  max-width: 45 auto;
+  margin: 300px auto 0 auto;
+  margin-left: 900px;
+  padding: 0 20px 50px 20px;
+  max-width: 800px; 
 
   border: 2px solid #ffb703;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.65);
-  
+
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
   color: #f7ede2;
@@ -141,7 +138,7 @@ html, body {
 .welcome h3 {
   font-size: 20px;
   line-height: 1.6;
-  max-width: 1500px;
+  max-width: 100%;
   margin: 0 auto;
   padding-bottom: 30px;
   color: #e0c67a;
@@ -150,18 +147,20 @@ html, body {
 
 .welcome h4 a {
   text-decoration: none;
-  color: #f7ede2; /* match about text color */
+  color: #f7ede2;
   font-size: 35px;
   font-family: 'Arial', sans-serif;
-  
+
   border: 1px solid #ffb703;
   border-radius: 15px;
   background-color: #ffb703;
-  
+
   margin-top: 10px;
   padding: 12px;
-  
+
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .welcome h4 a:hover {
@@ -169,6 +168,6 @@ html, body {
   color: #ffb703;
   box-shadow: 0 0 12px #ffb703;
   border-color: #ffb703;
-  
+
   transform: translateY(-10px);
 }
